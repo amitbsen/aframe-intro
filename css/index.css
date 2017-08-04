@@ -14,6 +14,18 @@
   font-weight: 400;
 }
 
+img{
+  margin-top: 25px !important;
+}
+
+iframe{
+  display:block;
+  margin-top: 25px !important;
+  /* margin-bottom: 20vh; */
+  height: 90vh;
+  width: 100%;
+}
+
 
 .c-title{
   font-weight: 700;

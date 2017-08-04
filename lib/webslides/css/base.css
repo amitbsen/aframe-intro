@@ -1597,12 +1597,12 @@ padding: 2.4rem;
   z-index: 4;
 }
 #navigation  {
-  -webkit-animation: fadeIn 8s;
-  animation: fadeIn 8s;
-  opacity:0;
+  /* -webkit-animation: fadeIn 8s; */
+  /* animation: fadeIn 8s; */
+  opacity:1;
 }
 #navigation:hover {
-  opacity: 1;
+  /* opacity: 1; */
 }
 /* -- navigation arrow always visible? -- */
 
