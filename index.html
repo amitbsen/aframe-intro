@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- SEO -->
-  <title>A Primer for AFrame</title>
-  <meta name="description" content="Create WebVR experiences with Mozilla’s AFrame">
+  <title>A Primer for A-Frame</title>
+  <meta name="description" content="Create WebVR experiences with Mozilla’s A-Frame">
   <meta name="author" content="Amit Sen">
 
   <!-- URL CANONICAL -->
@@ -45,25 +45,25 @@
   <!-- SOCIAL CARDS -->
 
   <!-- FACEBOOK -->
-  <meta property="og:url" content="http://www.rilke.us/aframe-primer">
+  <meta property="og:url" content="http://www.rilke.us/A-Frame-primer">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="A Primer for AFrame">
-  <meta property="og:description" content="Create WebVR experiences with Mozilla’s AFrame">
+  <meta property="og:title" content="A Primer for A-Frame">
+  <meta property="og:description" content="Create WebVR experiences with Mozilla’s A-Frame">
   <meta property="og:updated_time" content="2017-01-04T17:20:50">
-  <meta property="og:image" content="img/aframe_image.jpg">
+  <meta property="og:image" content="img/A-Frame_image.jpg">
 
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@amitbsen">
   <meta name="twitter:creator" content="@amitbsen">
-  <meta name="twitter:title" content="A Primer for AFrame">
-  <meta name="twitter:description" content="Create WebVR experiences with Mozilla’s AFrame">
-  <meta name="twitter:image" content="img/aframe_image.jpg">
+  <meta name="twitter:title" content="A Primer for A-Frame">
+  <meta name="twitter:description" content="Create WebVR experiences with Mozilla’s A-Frame">
+  <meta name="twitter:image" content="img/A-Frame_image.jpg">
 
 </head>
 
 <body>
-  <header role="banner">
+  <!--<header role="banner">
     <nav role="navigation">
       <p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
       <ul>
@@ -85,74 +85,65 @@
         </li>
       </ul>
     </nav>
-  </header>
+  </header>-->
 
-  <main role="main" class="vertical">
+  <main role="main" >
     <article id="webslides">
 
       <!-- SLIDE: TITLE aligncenter-->
       <section class="c-s1">
         <div class="wrap">
-          <h1><b>A Primer on AFrame</b></h1>
-          <h3>Easily create WebVR experiences<br/>with Mozilla's AFrame</h3>
+          <h1><b>A Primer on A-Frame</b></h1>
+          <h3>Easily create WebVR experiences with Mozilla's A-Frame</h3>
           <p>Created by <a href="./lib/webslides/js/webslides.js">Amit Sen</a> / <a href="">Tech.Global</a></p>
         </div>
       </section>
 
       <!-- SLIDE: -->
-      <section>
+      <section class="c-s2">
         <div class="wrap">
-          <h1 class="c-title">What is AFrame?</h1>
+          <h1 class="c-title">What is A-Frame?</h1>
+          <h3 class="c-t3">An open-source, web framework (JavaScript library) for building virtual reality experiences.</h3>
+          <h3 class="c-t3"><b>Compatible with:</b> Desktop Browsers / Mobile Browser / HTC Vive / Oculus Rift / Google Daydream / Samsung GearVR / Cardboard</h3>
+          <!--<ul>
+            <li class="c-li"><h3>Desktop Browsers</h3></li>
+            <li class="c-li"><h3>Mobile Browsers</h3></li>
+            <li class="c-li"><h3>HTC Vive</h3></li>
+            <li class="c-li"><h3>Oculus Rift</h3></li>
+            <li class="c-li"><h3>Google Daydream / Samsung GearVR</h3></li>
+            <li class="c-li"><h3>Cardboard Viewers</h3></li>
+          </ul>-->
+          <!--<h4>An open-source, web framework (JavaScript library) for building virtual reality experiences.</h4>--> 
         </div>
       </section>
+      <style>
+        li{
+          margin: 65px;
+        }
+      </style>
+
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-          <h1 class="c-title">Applications of AFrame</h1>
-        </div>
-      </section>
+          <h1 class="c-title">Features of A-Frame</h1>
+          <h3>The Mozilla VR team developed A-Frame to be the easiest and most powerful way to create WebVR content.</h3>
+          <div class="grid">
+            <div class="column">
+              <h3 class="c-t3"><b>Declarative HTML</b></h3>
+              <h3 class="c-t3"><b>Cross-Platform VR</b></h3>
+              <h3 class="c-t3"><b>Entity-Component Architecture</b></h3>
+              <h3 class="c-t3"><b>Performance</b></h3>
+            </div>
 
-      <!-- SLIDE: -->
-      <section>
-        <div class="wrap">
-          <h1 class="c-title">Applications of AFrame</h1>
-          <h1 class="c-title-1">Integrated Content Viewer</h1>
-        </div>
-      </section>
-
-      <!-- SLIDE: -->
-      <section>
-        <div class="wrap">
-
-          <h1 class="c-title-1">Virtual Scene</h1>
-        </div>
-      </section>
-
-      <!-- SLIDE: -->
-      <section>
-        <div class="wrap">
-          <h1 class="c-title">Link Traversal</h1>
-        </div>
-      </section>
-
-      <!-- SLIDE: -->
-      <section>
-        <div class="wrap">
-          <h1 class="c-title">Multi-User Experiences</h1>
-        </div>
-      </section>
-
-      <!-- SLIDE: -->
-      <section>
-        <div class="wrap">
-          <h1 class="c-title">Augmented Reality</h1>
-        </div>
-      </section>
-
-      <!-- SLIDE: -->
-      <section>
-        <div class="wrap">
+            <div class="column">
+              <h3 class="c-t3"><b>Tool Agnostic</b></h3>
+              <h3 class="c-t3"><b>Visual Inspector</b></h3>
+              <h3 class="c-t3"><b>Registry</b></h3>
+              <h3 class="c-t3"><b>Components</b></h3>
+            </div>
+          </div>
+          
 
         </div>
       </section>
@@ -160,122 +151,195 @@
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Applications of A-Frame</h1>
+          <h2 class="c-t2">Integrated Content Viewer</h2>
+          <h3 class="c-t3">Showcase captured content with AFrame. It is viewable 360° and VR-ready images and integrate with other web frameworks.</h3>
+          <img class="size-50" src="" alt="">
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Applications of A-Frame</h1>
+          <h3>Interactive Environments</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Applications of A-Frame</h1>
+          <h3>Multi-User Experiences</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Applications of A-Frame</h1>
+          <h3>Link Traversal</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Applications of A-Frame</h1>
+          <h3>Augmented Reality</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Getting Started</h1>
+          <h3>Introducing CodePen</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">CodePen</h1>
+          <h3>Fork a Pen</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">CodePen</h1>
+          <h3>Edit Code</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
+          <h1 class="c-title">CodePen</h1>
+          <h3>View Your Pen</h2>
+      </section>
 
+      <!-- SLIDE: -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">CodePen</h1>
+          <h3>Share and Export</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Make a Scene</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Create a Primitive</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Position + Rotation</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Textures</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Animations</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">The A-Frame Inspector</h1>
+          <h3></h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Interactions</h2>
         </div>
       </section>
 
       <!-- SLIDE: -->
       <section>
         <div class="wrap">
-
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Integrating JavaScript</h2>
         </div>
       </section>
 
+      <!-- SLIDE: -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Integrating JavaScript P2</h2>
+        </div>
+      </section>
+
+      <!-- SLIDE: -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Cursor</h2>
+        </div>
+      </section>
+
+      <!-- SLIDE: -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Cursor Events</h2>
+        </div>
+      </section>
+
+      <!-- SLIDE: -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>3D Models</h2>
+        </div>
+      </section>
+
+      <!-- SLIDE: -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">Hello, WebVR!</h1>
+          <h3>Animating the Model</h2>
+        </div>
+      </section>
+
+      <!-- SLIDE -->
+      <section>
+        <div class="wrap">
+          <h1 class="c-title">Next Steps</h1>
+          <h3>Continue Your Journey</h2>
+        </div>
+      </section>
 
 
 

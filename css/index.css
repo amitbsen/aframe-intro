@@ -2,9 +2,28 @@
   padding: 30px 0;
 }
 
+.c-t2{
+  padding-bottom: 40px;
+}
+
+.c-t3{
+  padding-bottom: 24px;
+}
+
+.c-t3 b{
+  font-weight: 400;
+}
+
+
 .c-title{
   font-weight: 700;
 }
 .c-title-1{
   font-weight: 400;
 }
+/*
+.c-li h3{
+  position: relative;
+  top: 25px; 
+  margin: 15px 0;
+}*/
